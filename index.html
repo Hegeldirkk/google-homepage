@@ -5,17 +5,130 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Google Odin Project</title>
+    <style>
+        nav li {
+    display: inline;
+    text-align: right;
+    margin: 10px;
+  }
+  
+  .right {
+    position: absolute;
+    right: 0px;
+    width: 300px;
+    padding: 10px;
+  }
+  
+  .conect {
+    background-color: #4285f4;
+    padding: 10px;
+    color: white;
+  }
+  
+  .Research{
+    padding-top:190px;
+    padding-left: 38%;
+  }
+  
+  input[type=text] {
+    width: 70%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+  }
+  
+  input[type=text]:focus {
+    width: relative;
+  }
+  
+  .bar{
+    padding-left: 22%;
+    padding-top:20px;
+  }
+  
+  
+  .foot{
+    background-color:#f2f2f2;
+    height: 70px;
+    margin-top:120px;
+  }
+  
+  #second-foot{
+     float: right;
+   margin-right:30px;
+   white-space: nowrap;
+    margin-top:45px;
+  }
+  
+  .aa{
+    margin-left: 20px;
+  
+  }
+  
+  #first-foot{
+   margin-left:30px;
+   white-space: nowrap;
+    margin-top:45px;
+  }
+  
+  .bb{
+    padding-left: 27px;
+        margin: 0 !important;
+      margin-top: 0px !important;
+      margin-right: 0px !important;
+      margin-bottom: 0px !important;
+      margin-left: 0px !important;
+  }
+    </style>
 </head>
 <body>
     <header>
         <nav>
-            <ul>
+            <ul class="right">
                 <li>Gmail</li>
                 <li>Image</li>
                 <li></li>
-                <li><button>Se Connecter</button></li>
+                <li class="conect">Se Connecter</li>
             </ul>
         </nav>
     </header>
+  <div class="Research"> 
+    <img alt="Google Odin" height="92" width="272" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png
+"> <br>
+    </div>
+    <div class="bar">
+    <form>
+    <input type="text" name="search" placeholder="Search..">
+    </form>
+    
+  </div>
+  
+  
+  
+
+  
+    <div class="foot">
+        <div></div>
+      <span id="second-foot">
+       <a class="aa">Confidentialité</a>
+       <a class="aa">Condition</a>
+       <a class="aa">Paramètres</a>
+      </span>
+      <span id="first-foot">
+        <a class="bb">Publicités</a>
+        <a class="bb">Entreprise</a>
+        <a class="bb">A propos</a>
+        <a class="bb">Comment fonctionne la recherche Google ?</a>
+      </span>
+    </div>
+
 </body>
 </html>
